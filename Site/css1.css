@@ -1,0 +1,62 @@
+#cabe{
+	height: 134px;
+	position: absolute;
+    width: 1100px;
+	left: 130px; 
+	top: 1px;
+    text-indent: 150px;
+	font-family: 'Montserrat', sans-serif;
+    background: #1E90FF;
+	color:white;
+	text-shadow:2px 2px 2px black;
+}
+#menu{
+	font-size: 20px;
+	position: absolute;
+     width: 1100px;
+	left: 130px; 
+	top: 140px;
+    text-indent: 150px;
+	font-family: 'Open Sans Condensed', sans-serif;
+    background: #DC143C;
+	text-shadow:1px 1px 1px black;
+}
+a{ text-decoration: none;
+	color:white;
+}
+#corpo{
+	color: #D3D3D3;
+	background: #1E90FF;
+	position: absolute;
+     width: 1100px;
+	left: 130px; 
+	top: 171px;
+	height: 490px;
+}
+iframe{
+	border: none;
+	position: absolute;
+    width: 1000px;
+	left: 230px;
+	top: 170px;
+	height: 490px;
+}
+img{
+
+	position: absolute;
+	left: 145px;
+	top: 0px;
+}
+info{
+text-decoration:none;
+color:#F8F8FF;
+font-size:38px;
+font-family: 'Indie Flower', cursive;}
+#login{
+	position: absolute;
+    width: 1000px;
+	left: 230px;
+	top: 170px;
+	height: 490px;
+}
+	}

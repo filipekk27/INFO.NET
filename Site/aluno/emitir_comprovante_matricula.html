@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+ <head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="../css2.css">
+  <title>Sistema de Gestão Acadêmica</title>
+ </head>
+ <body>
+  </h1>
+  
+  <h1>Portal do Aluno</h1><br>
+  
+  
+  <a href="menu_aluno.html">&larr;Aluno</a>
+  <form>
+  <fieldset>
+  <legend><h2>Emitir Comprovante de Matrícula</h2></legend>
+  <label for="aluno">Aluno:</label>
+                <select name="aluno" id="aluno">
+                    <option value="P">Selecione...</option>
+    <option value="P">Lucas</option>
+    <option value="M">Matheus</option>
+    <option value="G">Izaque</option>
+    <option value="I">Jacó</option>
+    <option value="I">Judas</option>
+    <option value="I">Jeremias</option>
+    <option value="I">Josué</option>
+    <option value="I">Jose</option>
+                </select>
+  
+  </select><br>
+  <label for="msg">Semestre:</label><br>
+  <textarea id="msg" maxlength="8"></textarea><br>
+  Emissão:<label class="checkbox">
+    <input type="radio" name="gender" value="pdf"checked>PDF<br>
+</label>
+<label class="checkbox">
+    <input type="radio" name="gender" value="email">EMAIL<br>
+</label>
+  <br>
+  
+  </fieldset>
+  </form>
+  <br><input type="submit" value="Emitir"/>
+  
+  
+ </body>
+</html>

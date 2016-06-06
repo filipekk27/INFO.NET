@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+ <head>
+ 	<link rel="stylesheet" type="text/css" href="../css2.css">
+  <meta charset="UTF-8"/>
+  <title>Sistema de Gestão Acadêmica</title>
+ </head>
+ <body>
+</h1>
+  
+  <h1>Portal do Professor</h1><br>
+
+    <a href="menu_professor.html">&larr;Professor</a>
+
+  
+  <fieldset><legend><h2>Registrar faltas</h2></legend>
+  
+<form>
+<div class="campo">
+<label for="Aluno">Aluno:</label>
+  <select name="Aluno" id="aluno">
+    <option value="">--</option>
+    <option value="P">Jean Grey</option>
+    <option value="M">Hank McCoy</option>
+    <option value="G">Kitty Pryde</option>
+    <option value="I">Anne Marie</option>
+    <option value="I">Kurt Wagner</option>
+    <option value="I">Ororo Munroe</option>
+    <option value="I">Scott Summers</option>
+    <option value="I">James Logan</option>
+  </select>
+</div>
+<label for="disciplina">Disciplina:</label>
+  <select id="disciplina">
+  <option value="">--</option>
+    <option value="P">BD</option>
+    <option value="M">POO</option>
+    <option value="G">WEB1</option>
+    <option value="I">WEB2</option><br>
+  </select><br>
+
+
+  <label for="data">Data:</label>
+  <input type="date" name="data"><br>
+  <label for="msg">Número de Faltas:</label>
+  <textarea id="msg" maxlength="4"></textarea><br>
+  <input type="submit" value="Registrar"/>
+
+ </fieldset>
+  
+  
+  </form>  
+ </body>
+</html>
